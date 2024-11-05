@@ -7,6 +7,9 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.12"
+pydantic = "^2.9.2"
+pydantic-settings = "^2.6.1"
+pydantic-extra-types = "^2.10.0"
 
 [tool.poetry.group.dev.dependencies]
 pyright = "^1.1.387"
