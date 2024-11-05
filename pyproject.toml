@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "sealbot"
+version = "0.1.0"
+description = "A Discord bot centered around seals :3"
+authors = ["june349"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
