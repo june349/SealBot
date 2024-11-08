@@ -11,4 +11,8 @@ class SealBot(commands.Bot):
             command_prefix=settings.prefix, 
             description="A Discord bot centered around seals :3"
         )
-        self.settings = settings
+        self._settings = settings
+        
+    @property
+    def settings(self) -> Settings:
+        return self._settings
