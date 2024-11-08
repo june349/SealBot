@@ -1,4 +1,4 @@
-from pydantic import Field, DirectoryPath
+from pydantic import DirectoryPath, Field
 from pydantic_extra_types.color import Color
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
